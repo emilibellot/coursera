@@ -1,4 +1,14 @@
-#menu {
+		*{
+			box-sizing: border-box;
+			margin: 0;
+			padding: 0;
+		}
+		body{
+			margin: 0px;
+		}
+
+		#menu {	
+			clear: left;		
 		    list-style:none;
 		    margin:30px auto 0px auto;
 		    height:43px;
@@ -29,6 +39,31 @@
 		    border:none;
 		}
 
+		.titles{
+			color: white;
+			width: 90%;
+			font-size: 50px;
+			font-weight: bold;
+			background-color: #31CF8A;
+			opacity: .9;
+			float: left;
+		}
+
+		.titol{
+			color: white;
+			font-size: 50px;
+			font-weight: bold;
+			background-color: #31CF8A;
+			padding-left: 10px;
+			opacity: .9;
+		}
+
+		.slogan1{
+			color: red; 
+			font-size: 30px;
+			padding-left: 20px;
+		}
+
 		h1{
 			color: white;
 			font-size: 50px;
@@ -37,11 +72,13 @@
 			opacity: .9;
 			padding-left: 10px;
 			line-height: 0;
+			margin-bottom: 0;
 		}
 		h2{
 			color: red; 
 			font-size: 30px;
 			padding-left: 100px;
+			margin-top: 10px;
 		}
 
 		section{
@@ -70,6 +107,11 @@
 
 		header li{
 			list-style: none;
+		}
+
+		.logo{
+			width: 10%;
+			float: left;
 		}
 
 		a:link, a:visited{
